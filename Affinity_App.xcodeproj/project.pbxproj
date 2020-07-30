@@ -20,6 +20,7 @@
 		6349C74B24D34AC900D4A30A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C74A24D34AC900D4A30A /* MessageViewController.swift */; };
 		6349C74D24D34B1700D4A30A /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C74C24D34B1700D4A30A /* MeViewController.swift */; };
 		6349C75124D34BDD00D4A30A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C75024D34BDD00D4A30A /* TabBarViewController.swift */; };
+		6349C75324D36A8400D4A30A /* WinterQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C75224D36A8400D4A30A /* WinterQuestionViewController.swift */; };
 		932D879F24D1F548008BDF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D879E24D1F548008BDF21 /* AppDelegate.swift */; };
 		932D87A124D1F548008BDF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D87A024D1F548008BDF21 /* SceneDelegate.swift */; };
 		932D87A324D1F548008BDF21 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D87A224D1F548008BDF21 /* FirstViewController.swift */; };
@@ -28,7 +29,6 @@
 		932D87AB24D1F548008BDF21 /* Affinity_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 932D87A924D1F548008BDF21 /* Affinity_App.xcdatamodeld */; };
 		932D87AD24D1F550008BDF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932D87AC24D1F550008BDF21 /* Assets.xcassets */; };
 		932D87B024D1F550008BDF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932D87AE24D1F550008BDF21 /* LaunchScreen.storyboard */; };
-		93B2DF0024D33C1900FD5E55 /* WinterQuestionControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DEFF24D33C1900FD5E55 /* WinterQuestionControllerViewController.swift */; };
 		93B2DF0224D33D2E00FD5E55 /* SummerQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DF0124D33D2E00FD5E55 /* SummerQuestionController.swift */; };
 		93B2DF0424D33D5600FD5E55 /* FallQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DF0324D33D5600FD5E55 /* FallQuestionController.swift */; };
 		93B2DF0624D33D6E00FD5E55 /* SpringQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DF0524D33D6E00FD5E55 /* SpringQuestionController.swift */; };
@@ -48,6 +48,7 @@
 		6349C74A24D34AC900D4A30A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		6349C74C24D34B1700D4A30A /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		6349C75024D34BDD00D4A30A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		6349C75224D36A8400D4A30A /* WinterQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterQuestionViewController.swift; sourceTree = "<group>"; };
 		932D879B24D1F548008BDF21 /* Affinity_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affinity_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932D879E24D1F548008BDF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		932D87A024D1F548008BDF21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		932D87AC24D1F550008BDF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932D87AF24D1F550008BDF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932D87B124D1F550008BDF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93B2DEFF24D33C1900FD5E55 /* WinterQuestionControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterQuestionControllerViewController.swift; sourceTree = "<group>"; };
 		93B2DF0124D33D2E00FD5E55 /* SummerQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerQuestionController.swift; sourceTree = "<group>"; };
 		93B2DF0324D33D5600FD5E55 /* FallQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallQuestionController.swift; sourceTree = "<group>"; };
 		93B2DF0524D33D6E00FD5E55 /* SpringQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringQuestionController.swift; sourceTree = "<group>"; };
@@ -78,6 +78,7 @@
 		932D879224D1F548008BDF21 = {
 			isa = PBXGroup;
 			children = (
+				6349C75224D36A8400D4A30A /* WinterQuestionViewController.swift */,
 				932D879D24D1F548008BDF21 /* Affinity_App */,
 				932D879C24D1F548008BDF21 /* Products */,
 			);
@@ -111,7 +112,6 @@
 				6349C73624D2A7D000D4A30A /* ProfilePopUpViewController.swift */,
 				6349C73824D2A82900D4A30A /* SignInViewController.swift */,
 				6349C73A24D2A85600D4A30A /* SignUpViewController.swift */,
-				93B2DEFF24D33C1900FD5E55 /* WinterQuestionControllerViewController.swift */,
 				93B2DF0124D33D2E00FD5E55 /* SummerQuestionController.swift */,
 				93B2DF0324D33D5600FD5E55 /* FallQuestionController.swift */,
 				93B2DF0524D33D6E00FD5E55 /* SpringQuestionController.swift */,
@@ -200,7 +200,6 @@
 				93B2DF0224D33D2E00FD5E55 /* SummerQuestionController.swift in Sources */,
 				932D87AB24D1F548008BDF21 /* Affinity_App.xcdatamodeld in Sources */,
 				6349C74924D34A7900D4A30A /* SearchViewController.swift in Sources */,
-				93B2DF0024D33C1900FD5E55 /* WinterQuestionControllerViewController.swift in Sources */,
 				6349C73B24D2A85600D4A30A /* SignUpViewController.swift in Sources */,
 				932D87A524D1F548008BDF21 /* SecondViewController.swift in Sources */,
 				6349C74524D34A3100D4A30A /* AddViewController.swift in Sources */,
@@ -217,6 +216,7 @@
 				6349C73724D2A7D000D4A30A /* ProfilePopUpViewController.swift in Sources */,
 				932D87A124D1F548008BDF21 /* SceneDelegate.swift in Sources */,
 				93B2DF0424D33D5600FD5E55 /* FallQuestionController.swift in Sources */,
+				6349C75324D36A8400D4A30A /* WinterQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
