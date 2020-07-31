@@ -8,26 +8,40 @@
 
 import UIKit
 
+
+var y2kStyle = 0
+   var grungeStyle = 0
+   var modernBasicStyle = 0
+   var classicStyle = 0
+   
+
+
 class WinterQuestionController: UIViewController {
+    
+    
+@IBAction func longJacket(_ sender: Any) {
+    classicStyle += 1
+    }
+   
+@IBAction func puffyJacketTapped(_ sender: Any) {
+    modernBasicStyle += 1
+    }
+    
 @IBAction func nikeSweatshirtTapped(_ sender: Any) {
+    y2kStyle += 1
     print("Success")
     }
-@IBAction func flannelTapped(_ sender: Any) {}
+    
+@IBAction func flannelTapped(_ sender: Any) {
+    grungeStyle += 1
+    }
+    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
+

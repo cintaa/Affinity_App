@@ -9,7 +9,38 @@
 import UIKit
 
 class SummerQuestionController: UIViewController {
-
+    
+    
+    @IBAction func redSunglasses(_ sender: Any) {
+       y2kStyle += 1
+    }
+    
+    
+    @IBAction func bandTee(_ sender: Any) {
+        grungeStyle += 1
+    }
+    
+    @IBAction func mensTrunks(_ sender: Any) {
+        modernBasicStyle += 1
+    }
+    
+    
+    @IBAction func womensBathingSuit(_ sender: Any) {
+        modernBasicStyle += 1
+    }
+    
+    
+    @IBAction func womensShorts(_ sender: Any) {
+        classicStyle += 1
+    }
+    
+    
+    @IBAction func mensShorts(_ sender: Any) {
+        classicStyle += 1
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,14 +48,5 @@ class SummerQuestionController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

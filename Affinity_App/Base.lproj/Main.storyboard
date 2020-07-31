@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Mn-j4-2Pj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Mn-j4-2Pj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -244,6 +244,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="images-8"/>
                                 <connections>
+                                    <action selector="windBreaker:" destination="ZkY-Z9-MX2" eventType="touchUpInside" id="2ml-bc-ayk"/>
                                     <segue destination="pkl-pY-02M" kind="show" id="9NP-J7-GPT"/>
                                 </connections>
                             </button>
@@ -252,6 +253,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-8"/>
                                 <connections>
+                                    <action selector="docMartens:" destination="ZkY-Z9-MX2" eventType="touchUpInside" id="Fpi-CY-eLQ"/>
                                     <segue destination="pkl-pY-02M" kind="show" id="Jas-FY-4QF"/>
                                 </connections>
                             </button>
@@ -260,6 +262,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-5"/>
                                 <connections>
+                                    <action selector="oversizedHood:" destination="ZkY-Z9-MX2" eventType="touchUpInside" id="5lT-22-9df"/>
                                     <segue destination="pkl-pY-02M" kind="show" id="WLa-6n-LG3"/>
                                 </connections>
                             </button>
@@ -268,6 +271,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-10"/>
                                 <connections>
+                                    <action selector="basicJacket:" destination="ZkY-Z9-MX2" eventType="touchUpInside" id="uHm-vv-GTM"/>
                                     <segue destination="pkl-pY-02M" kind="show" id="19q-hf-Ypu"/>
                                 </connections>
                             </button>
@@ -300,16 +304,28 @@
                                 <rect key="frame" x="142" y="220" width="127" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="images-10"/>
+                                <connections>
+                                    <action selector="tankTop:" destination="pkl-pY-02M" eventType="touchUpInside" id="KXR-Zx-hAL"/>
+                                    <segue destination="D7I-P2-JZm" kind="show" id="ckK-ah-o3M"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOm-ei-5uX">
                                 <rect key="frame" x="144" y="357" width="127" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-3"/>
+                                <connections>
+                                    <action selector="bucketHat:" destination="pkl-pY-02M" eventType="touchUpInside" id="f3C-sh-oEE"/>
+                                    <segue destination="D7I-P2-JZm" kind="show" id="Gvu-uI-acc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKh-it-hs6">
                                 <rect key="frame" x="144" y="494" width="127" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="brandy jeans 2"/>
+                                <connections>
+                                    <action selector="jeans:" destination="pkl-pY-02M" eventType="touchUpInside" id="y0I-Lo-u2x"/>
+                                    <segue destination="D7I-P2-JZm" kind="show" id="ete-yx-Vy0"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="GOa-gf-Pps">
                                 <rect key="frame" x="-181" y="-283" width="772" height="348"/>
@@ -319,6 +335,10 @@
                                 <rect key="frame" x="142" y="631" width="127" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="vintage polo"/>
+                                <connections>
+                                    <action selector="longSleeve:" destination="pkl-pY-02M" eventType="touchUpInside" id="Cam-Do-Vlu"/>
+                                    <segue destination="D7I-P2-JZm" kind="show" id="NaQ-0Z-5gb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76741283679396266" blue="0.70416737570532251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -330,30 +350,49 @@
             </objects>
             <point key="canvasLocation" x="-1757" y="-719"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz Answer View Controller-->
         <scene sceneID="DN8-4w-4vO">
             <objects>
-                <viewController id="D7I-P2-JZm" sceneMemberID="viewController">
+                <viewController id="D7I-P2-JZm" customClass="QuizAnswerViewController" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TRg-AZ-XuR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhT-7I-hcF">
-                                <rect key="frame" x="144" y="663" width="126" height="30"/>
+                                <rect key="frame" x="144" y="688" width="126" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go to my acoount!"/>
                                 <connections>
+                                    <action selector="goToAccButton:" destination="D7I-P2-JZm" eventType="touchUpInside" id="Ce4-5T-6gf"/>
                                     <segue destination="jii-ot-7Eo" kind="show" id="1if-md-cjd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-Js-93C">
+                                <rect key="frame" x="173" y="386" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPp-nU-eJm">
+                                <rect key="frame" x="198" y="225" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="answerButton:" destination="D7I-P2-JZm" eventType="touchUpInside" id="cRx-QK-wl1"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="TdL-Ig-uO8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dLt-hM-xyi"/>
+                    <connections>
+                        <outlet property="answerText" destination="Ku4-Js-93C" id="e2x-y2-4WP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LyU-ml-fgr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1003" y="-719"/>
+            <point key="canvasLocation" x="-1004.3478260869566" y="-719.19642857142856"/>
         </scene>
         <!--Winter Question Controller-->
         <scene sceneID="Y9t-TS-6VK">
@@ -401,6 +440,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="images-3"/>
                                         <connections>
+                                            <action selector="puffyJacketTapped:" destination="Y5X-Iw-U0n" eventType="touchUpInside" id="mhW-WG-9ui"/>
                                             <segue destination="x7z-yy-Tch" kind="show" id="DAQ-Ei-Is9"/>
                                         </connections>
                                     </button>
@@ -409,6 +449,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="index-49-1568644706"/>
                                         <connections>
+                                            <action selector="longJacket:" destination="Y5X-Iw-U0n" eventType="touchUpInside" id="eNs-jv-FGm"/>
                                             <segue destination="x7z-yy-Tch" kind="show" id="DY0-dB-FMd"/>
                                         </connections>
                                     </button>
@@ -450,6 +491,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Screen Shot 2020-07-30 at 11.05.40 AM"/>
                                 <connections>
+                                    <action selector="y2kQ2:" destination="x7z-yy-Tch" eventType="touchUpInside" id="mmG-1j-esM"/>
                                     <segue destination="ZkY-Z9-MX2" kind="show" id="xjQ-Kt-fKm"/>
                                 </connections>
                             </button>
@@ -458,6 +500,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="band tee"/>
                                 <connections>
+                                    <action selector="grungeQ2:" destination="x7z-yy-Tch" eventType="touchUpInside" id="uVr-0S-LNk"/>
                                     <segue destination="ZkY-Z9-MX2" kind="show" id="GmR-6s-EU9"/>
                                 </connections>
                             </button>
@@ -466,6 +509,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Screen Shot 2020-07-30 at 11.13.22 AM"/>
                                 <connections>
+                                    <action selector="mensTrunks:" destination="x7z-yy-Tch" eventType="touchUpInside" id="3qY-3r-ct5"/>
                                     <segue destination="ZkY-Z9-MX2" kind="show" id="z3e-UW-6oF"/>
                                 </connections>
                             </button>
@@ -474,6 +518,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="14160184_18904041_600"/>
                                 <connections>
+                                    <action selector="womensShorts:" destination="x7z-yy-Tch" eventType="touchUpInside" id="rnW-3x-oQO"/>
                                     <segue destination="ZkY-Z9-MX2" kind="show" id="qtg-oY-Lxz"/>
                                 </connections>
                             </button>
@@ -482,6 +527,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Screen Shot 2020-07-30 at 11.15.19 AM"/>
                                 <connections>
+                                    <action selector="womensBathingSuit:" destination="x7z-yy-Tch" eventType="touchUpInside" id="z5b-2r-5LQ"/>
                                     <segue destination="ZkY-Z9-MX2" kind="show" id="Lzd-7w-osB"/>
                                 </connections>
                             </button>
@@ -490,6 +536,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="345052114-front-pdp"/>
                                 <connections>
+                                    <action selector="mensShorts:" destination="x7z-yy-Tch" eventType="touchUpInside" id="v5S-EB-qyk"/>
                                     <segue destination="ZkY-Z9-MX2" kind="show" id="4xh-Qr-5Tl"/>
                                 </connections>
                             </button>
@@ -715,8 +762,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kq5-jI-yeG"/>
+        <segue reference="1if-md-cjd"/>
         <segue reference="DY0-dB-FMd"/>
+        <segue reference="Gvu-uI-acc"/>
         <segue reference="WLa-6n-LG3"/>
         <segue reference="Lzd-7w-osB"/>
     </inferredMetricsTieBreakers>

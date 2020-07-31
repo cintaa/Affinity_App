@@ -17,6 +17,7 @@
 		6349C74924D34A7900D4A30A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C74824D34A7900D4A30A /* SearchViewController.swift */; };
 		6349C74B24D34AC900D4A30A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C74A24D34AC900D4A30A /* MessageViewController.swift */; };
 		6349C74D24D34B1700D4A30A /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C74C24D34B1700D4A30A /* MeViewController.swift */; };
+		6349C75524D4955200D4A30A /* QuizAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349C75424D4955200D4A30A /* QuizAnswerViewController.swift */; };
 		932D879F24D1F548008BDF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D879E24D1F548008BDF21 /* AppDelegate.swift */; };
 		932D87A124D1F548008BDF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D87A024D1F548008BDF21 /* SceneDelegate.swift */; };
 		932D87A324D1F548008BDF21 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D87A224D1F548008BDF21 /* FirstViewController.swift */; };
@@ -43,6 +44,7 @@
 		6349C74824D34A7900D4A30A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6349C74A24D34AC900D4A30A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		6349C74C24D34B1700D4A30A /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		6349C75424D4955200D4A30A /* QuizAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAnswerViewController.swift; sourceTree = "<group>"; };
 		932D879B24D1F548008BDF21 /* Affinity_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affinity_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932D879E24D1F548008BDF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		932D87A024D1F548008BDF21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		932D879224D1F548008BDF21 = {
 			isa = PBXGroup;
 			children = (
+				6349C75424D4955200D4A30A /* QuizAnswerViewController.swift */,
 				932D879D24D1F548008BDF21 /* Affinity_App */,
 				932D879C24D1F548008BDF21 /* Products */,
 			);
@@ -196,6 +199,7 @@
 				6349C73B24D2A85600D4A30A /* SignUpViewController.swift in Sources */,
 				932D87A524D1F548008BDF21 /* SecondViewController.swift in Sources */,
 				6349C74524D34A3100D4A30A /* AddViewController.swift in Sources */,
+				6349C75524D4955200D4A30A /* QuizAnswerViewController.swift in Sources */,
 				932D87A324D1F548008BDF21 /* FirstViewController.swift in Sources */,
 				93B2DF0624D33D6E00FD5E55 /* SpringQuestionController.swift in Sources */,
 				6349C73D24D2A88200D4A30A /* AppLogoViewController.swift in Sources */,

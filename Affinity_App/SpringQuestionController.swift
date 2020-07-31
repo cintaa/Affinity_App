@@ -10,21 +10,44 @@ import UIKit
 
 class SpringQuestionController: UIViewController {
 
+    
+    
+    
+    @IBAction func tankTop(_ sender: Any) {
+        y2kStyle += 1
+    }
+    
+    
+    @IBAction func bucketHat(_ sender: Any) {
+        grungeStyle += 1
+    }
+    
+    
+    
+    @IBAction func jeans(_ sender: Any) {
+        modernBasicStyle += 1
+        
+    }
+    
+    @IBAction func longSleeve(_ sender: Any) {
+        classicStyle += 1
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+      
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
