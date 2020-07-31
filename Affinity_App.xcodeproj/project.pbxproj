@@ -29,6 +29,7 @@
 		93B2DF0424D33D5600FD5E55 /* FallQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DF0324D33D5600FD5E55 /* FallQuestionController.swift */; };
 		93B2DF0624D33D6E00FD5E55 /* SpringQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DF0524D33D6E00FD5E55 /* SpringQuestionController.swift */; };
 		93B2DF0A24D3735600FD5E55 /* WinterQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2DF0924D3735600FD5E55 /* WinterQuestionController.swift */; };
+		C189B28424D4859E00E3DD60 /* Edit Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189B28324D4859E00E3DD60 /* Edit Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		93B2DF0324D33D5600FD5E55 /* FallQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallQuestionController.swift; sourceTree = "<group>"; };
 		93B2DF0524D33D6E00FD5E55 /* SpringQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringQuestionController.swift; sourceTree = "<group>"; };
 		93B2DF0924D3735600FD5E55 /* WinterQuestionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterQuestionController.swift; sourceTree = "<group>"; };
+		C189B28324D4859E00E3DD60 /* Edit Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Profile.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				932D87A224D1F548008BDF21 /* FirstViewController.swift */,
 				932D87A424D1F548008BDF21 /* SecondViewController.swift */,
 				932D87A624D1F548008BDF21 /* Main.storyboard */,
+				C189B28324D4859E00E3DD60 /* Edit Profile.swift */,
 				6349C73E24D2C26900D4A30A /* OOTDPopUpViewController.swift */,
 				6349C74424D34A3100D4A30A /* AddViewController.swift */,
 				6349C74624D34A5D00D4A30A /* ExploreViewController.swift */,
@@ -198,6 +201,7 @@
 				6349C73D24D2A88200D4A30A /* AppLogoViewController.swift in Sources */,
 				932D879F24D1F548008BDF21 /* AppDelegate.swift in Sources */,
 				93B2DF0A24D3735600FD5E55 /* WinterQuestionController.swift in Sources */,
+				C189B28424D4859E00E3DD60 /* Edit Profile.swift in Sources */,
 				6349C74B24D34AC900D4A30A /* MessageViewController.swift in Sources */,
 				6349C74D24D34B1700D4A30A /* MeViewController.swift in Sources */,
 				6349C73F24D2C26900D4A30A /* OOTDPopUpViewController.swift in Sources */,

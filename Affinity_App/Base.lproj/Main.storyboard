@@ -98,6 +98,9 @@
                                 <state key="normal" title="Go">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jii-ot-7Eo" kind="show" id="kq5-jI-yeG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196365119999999" green="0.73655711155561288" blue="0.66346696315098708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -334,6 +337,16 @@
                     <view key="view" contentMode="scaleToFill" id="TRg-AZ-XuR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhT-7I-hcF">
+                                <rect key="frame" x="144" y="663" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to my acoount!"/>
+                                <connections>
+                                    <segue destination="jii-ot-7Eo" kind="show" id="1if-md-cjd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="TdL-Ig-uO8"/>
                     </view>
@@ -495,11 +508,11 @@
             <objects>
                 <viewController id="Rkw-Dg-LNf" customClass="AddViewController" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Snf-aK-7GD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qEA-9J-uzR">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -521,11 +534,11 @@
             <objects>
                 <viewController id="NRO-C8-qL9" customClass="ExploreViewController" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wlg-c4-G4F">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tr4-qc-Lzk">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -547,7 +560,7 @@
             <objects>
                 <viewController id="2Mq-De-7Zi" customClass="SearchViewController" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bgd-o1-Xs0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="3MU-LL-fc4"/>
@@ -563,11 +576,11 @@
             <objects>
                 <viewController id="tEY-oy-jon" customClass="MessageViewController" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dMl-xN-4Nb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LGr-FD-tUE">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -589,7 +602,7 @@
             <objects>
                 <viewController id="gaF-9a-fXf" customClass="MeViewController" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N9a-qz-tJL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiT-ZM-zr9">
@@ -624,10 +637,10 @@
             </objects>
             <point key="canvasLocation" x="-6746.376811594203" y="1837.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit Profile-->
         <scene sceneID="sTi-V8-ccQ">
             <objects>
-                <viewController id="8w3-Dy-OdY" sceneMemberID="viewController">
+                <viewController id="8w3-Dy-OdY" customClass="Edit_Profile" customModule="Affinity_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B0Y-3x-YAd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -644,15 +657,9 @@
                                 <state key="normal" title="take photo">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEp-Dh-Sy4">
-                                <rect key="frame" x="20" y="233" width="137" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.90196365119999999" green="0.73655711160000004" blue="0.66346696319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="12"/>
-                                <state key="normal" title="choose from library">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
+                                <connections>
+                                    <action selector="takeSelfieTapped:" destination="8w3-Dy-OdY" eventType="touchUpInside" id="iPW-4a-VHp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edit Profile Picture:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpZ-W1-JW4">
                                 <rect key="frame" x="20" y="169" width="148" height="24"/>
@@ -661,6 +668,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEp-Dh-Sy4">
+                                <rect key="frame" x="20" y="233" width="137" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196365119999999" green="0.73655711160000004" blue="0.66346696319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="12"/>
+                                <state key="normal" title="choose from library">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="imageLibraryTapped:" destination="8w3-Dy-OdY" eventType="touchUpInside" id="rD4-58-LJk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="2Bf-9L-jzR"/>
@@ -696,6 +715,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="kq5-jI-yeG"/>
         <segue reference="DY0-dB-FMd"/>
         <segue reference="WLa-6n-LG3"/>
         <segue reference="Lzd-7w-osB"/>
